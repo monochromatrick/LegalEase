@@ -146,7 +146,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Display the logo in the top-left corner
-st.image("/Users/patrickdavenport/PycharmProjects/LegalEase/App/LegalEaseStreamlitLogo.png", use_column_width=False)
+st.image("LegalEase/Images/LegalEaseStreamlitLogo.png", use_column_width=False)
 
 # Display the header text below the logo, with margin to avoid overlap (ONLY ONCE HERE)
 st.markdown(f"""
@@ -194,9 +194,9 @@ elif page == translation["rental_rights"]:
     #st.title(translation["rental_rights"])
 
     image_filenames = {
-        "English": "/Users/patrickdavenport/PycharmProjects/LegalEase/Images/FRR_English.png",
-        "Español": "/Users/patrickdavenport/PycharmProjects/LegalEase/Images/FRR_Spanish.png",
-        "Kreyòl Ayisyen": "/Users/patrickdavenport/PycharmProjects/LegalEase/Images/FRR_Kreyol.png"
+        "English": "LegalEase/Images/FRR_English.png",
+        "Español": "LegalEase/Images/FRR_Spanish.png",
+        "Kreyòl Ayisyen": "LegalEase/Images/FRR_Kreyol.png"
     }
 
     # Get the correct image path based on the selected language
