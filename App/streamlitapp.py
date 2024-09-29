@@ -146,7 +146,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Display the logo in the top-left corner
-st.image("/Users/patrickdavenport/PycharmProjects/LegalEase/App/LegalEaseStreamlitLogo.png", use_column_width=False)
+st.image("LegalEaseStreamlitLogo.png", use_column_width=False)
 
 # Display the header text below the logo, with margin to avoid overlap (ONLY ONCE HERE)
 st.markdown(f"""
